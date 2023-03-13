@@ -1,6 +1,23 @@
 import csv
 import datetime
 
+with open("Menu.txt", "w") as f:
+    f.write("Pizza Menusu.\n")
+    f.write("1: Klasik\n")
+    f.write("2: Margarita\n")
+    f.write("3: Turk Pizza\n")
+    f.write("4: Sade Pizza\n\n")
+    f.write("Sosu Menusu\n")
+    f.write("11: Zeytin\n")
+    f.write("12: Mantar\n")
+    f.write("13: Keci Peyniri\n")
+    f.write("14: Et\n")
+    f.write("14: Sogan\n")
+    f.write("16: Misir\n")
+
+Menu = open("Menu.txt")
+print(Menu.read())
+
 
 
 class Pizza:
